@@ -5,7 +5,7 @@ extends CI_Controller
 {
 	public function index()
 	{
-		$this->load->view('login/view');
+		$this->load->view('login');
 	}
 
 	public function validate()
